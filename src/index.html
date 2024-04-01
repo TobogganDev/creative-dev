@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico">
+    <title>JS Canvas Project</title>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h2>Hours</h2>
+            <canvas id="canvas-scene" class="scene"></canvas>
+        </div>
+        <h1>Time</h1>
+        <div>
+            <h2>Minutes</h2>
+            <canvas id="canvas-scene-2" class="scene"></canvas>
+        </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+<style>
+    body {
+        background-color: black;
+    }
+
+    h1, h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
+        color: white;
+        line-height: 1.4em;
+        font-size: 1.5rem;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .scene {
+        width: 40vw;
+        height: 60vw;
+    }
+</style>
+
+</html>
